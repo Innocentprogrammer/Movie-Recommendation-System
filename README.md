@@ -1,7 +1,6 @@
 # 🎬 Movie Recommendation System using K-Nearest Neighbors (KNN)
 
-This project is a **Movie Recommendation System** built with Python using **Collaborative Filtering** and **K-Nearest Neighbors (KNN)**. It suggests similar movies based on user ratings data, leveraging the power of machine learning with the `scikit-learn` library.
-
+This project is a **Movie Recommendation System** built with Python using **Collaborative Filtering** and **K-Nearest Neighbors (KNN)**. It suggests similar movies based on user ratings data, leveraging the power of machine learning with the `scikit-learn` library **[Read More...](https://medium.com/@mratyunjaysaxena1319/build-a-movie-recommendation-system-with-tkinter-machine-learning-a440f4f6a635)**
 
 ## 📁 Project Structure
 
