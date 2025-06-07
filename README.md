@@ -2,21 +2,21 @@
 
 This project is a **Movie Recommendation System** built with Python using **Collaborative Filtering** and **K-Nearest Neighbors (KNN)**. It suggests similar movies based on user ratings data, leveraging the power of machine learning with the `scikit-learn` library.
 
----
 
 ## 📁 Project Structure
 
-📦 Movie-Recommendation-KNN
-│
-├── 📂 DATA
-│ ├── movies.csv # Movie metadata (movieId, title)
-│ └── ratings.csv # User ratings (userId, movieId, rating)
-│
-├── Icon.ico #GUI logo
-├── 📄 movie_recommender.py # Main Python script
-└── 📄 README.md # This file
+├── movie_recommender_app.py       # Main application file
 
----
+├── icon.ico                       # App icon (optional)
+
+├── DATA/
+
+│   ├── movies.csv                 # Movie metadata
+
+│   └── ratings.csv                # Ratings by users
+
+└── README.md
+
 
 ## 🚀 Features
 
@@ -28,7 +28,6 @@ This project is a **Movie Recommendation System** built with Python using **Coll
   - Users who rated more than 50 movies.
 - Returns top 10 similar movies with similarity scores.
 
----
 
 ## 🧠 Tech Stack
 
@@ -38,7 +37,6 @@ This project is a **Movie Recommendation System** built with Python using **Coll
 - **SciPy** — sparse matrix utilities
 - **GUI** - Tkinter for Graphical User Interface 
 
----
 
 ## 🧪 How It Works
 
@@ -55,7 +53,6 @@ This project is a **Movie Recommendation System** built with Python using **Coll
    - Find 10 nearest neighbors using KNN.
    - Return movie titles and distances.
 
----
 
 ## 📦 Installation
 Clone the Repository
@@ -72,19 +69,18 @@ Run the Recommender
  - python movie_recommender.py
    
 📊 Dataset Source
-   This application uses the **[MovieLens 100k Dataset](https://www.kaggle.com/datasets/shubhammehta21/movie-lens-small-latest-dataset)**, specifically:
-    - `movies.csv`
-    - `ratings.csv`
+   This application uses the **[Kaggle Dataset](https://www.kaggle.com/datasets/shubhammehta21/movie-lens-small-latest-dataset)**, specifically:
+   
+    - movies.csv
+    - ratings.csv
 
-🛠 Future Improvements
-Web UI using Flask or Streamlit
+## 🛠 Future Improvements
+ - Web UI using Flask or Streamlit
+ - Hybrid filtering (content + collaborative)
+ - Save model for deployment
+ - User-based recommendations
 
-Hybrid filtering (content + collaborative)
-
-Save model for deployment
-
-User-based recommendations
-
-👨‍💻 Author
+## 👨‍💻 Author
 Mratyunjay Saxena
+
 Python Developer & Data Analyst
