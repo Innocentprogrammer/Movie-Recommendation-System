@@ -61,12 +61,16 @@ This project is a **Movie Recommendation System** built with Python using **Coll
 Clone the Repository
  - git clone https://github.com/yourusername/movie-recommender-knn.git
  - cd movie-recommender-knn
+   
 Install Dependencies
  - pip install pandas scikit-learn scipy tkinter
+   
 Add Dataset
  - Place movies.csv and ratings.csv inside the DATA/ folder.
+   
 Run the Recommender
  - python movie_recommender.py
+   
 📊 Dataset Source
    This application uses the **[MovieLens 100k Dataset](https://www.kaggle.com/datasets/shubhammehta21/movie-lens-small-latest-dataset)**, specifically:
     - `movies.csv`
